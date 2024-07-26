@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CLOCK</title>
+  <style>
+    *{
+      margin: 0%;
+      padding: 0%;
+    }
+      .wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: url('sebastian-svenson-d2w-_1LJioQ-unsplash.jpg') no-repeat;
+      background-size: cover;
+      background-position: center; 
+    }
+
+    .box{
+      height: 150px;
+      width: 500px;
+      background-color:transparent;
+      border: 2px solid rgba(255,255,255,.2);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 0 50px rgba(0,0,0,.9);
+      border-radius: 50px;
+    }
+
+    #DAYS{
+      color:blanchedalmond;
+      font-size: 25px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 15px;
+
+    }
+
+    #clock{
+      color:blanchedalmond;
+      font-size: 71px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="box">
+      <div id="DAYS"> days</div>
+      <div id="clock">
+        12:00:00 AM
+      </div>
+    </div>
+  </div>
+
+  <script src="clock.js">
+  </script>
+</body>
+</html>
